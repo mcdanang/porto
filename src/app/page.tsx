@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Header from "../components/sections/Header";
+import Landing from "../components/sections/Landing";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Header />
+      <Landing />
       <div>
         <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
           What is Lorem Ipsum?

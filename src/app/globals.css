@@ -7,6 +7,15 @@
   src: url("../../public/fonts/Roboto/Roboto-Medium.ttf");
 }
 
+@font-face {
+  font-family: "RobotoMono-Regular";
+  src: url("../../public/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
