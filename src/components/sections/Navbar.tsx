@@ -10,6 +10,8 @@ function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 }
 
+const sections = ["about", "projects", "contact"];
+
 export default function Example() {
   const [show, setShow] = useState(false);
   const [showShadow, setShowShadow] = useState(false);
@@ -65,9 +67,13 @@ export default function Example() {
               </div>
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
-                  {["about", "projects", "contact"].map((section, index) => {
+                  {sections.map((section, index) => {
                     return (
-                      <a key={section} href={`#${section}`} className="group px-4 cursor-pointer">
+                      <a
+                        key={section}
+                        href={`#${section}`}
+                        className="group px-4 cursor-pointer"
+                      >
                         <text className="font-roboto-mono">
                           {zeroPad(index + 1, 2)}.
                         </text>
@@ -109,13 +115,13 @@ export default function Example() {
             >
               <div className="px-2 pt-2 pb-3 space-y-1 w-screen">
                 {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                {["About", "Projects", "Contact"].map((section, index) => {
+                {sections.map((section, index) => {
                   return (
                     <Disclosure.Button
                       as="a"
-                      href="#"
+                      href={`#${section}`}
                       key={section}
-                      className="group block py-2 px-4 cursor-pointer"
+                      className="group block py-2 px-4 cursor-pointer capitalize"
                     >
                       <text className="font-roboto-mono">
                         {zeroPad(index + 1, 2)}.
