@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Landing() {
   return (
     <div className="h-[calc(100vh)] flex items-center">
@@ -12,23 +14,33 @@ export default function Landing() {
         <p className="text-lg font-roboto text-gray md:w-2/3 my-8 max-w-2xl">
           I&apos;ve learned front-end development since I was 14. Now I&apos;m
           focusing on improving my skills and knowledge. You can see my work on{" "}
-          <a
-            href="https://github.com/youssef579"
-            target="_blank"
-            className="text-teal"
-          >
-            GitHub
-          </a>{" "}
+          <span className="relative">
+            <a
+              href="https://github.com/mcdanang/"
+              target="_blank"
+              className="text-teal before:content-[''] before:w-0 before:h-[1px] before:absolute before:bottom-0 before:left-0 before:bg-teal before:hover:w-full before:transition-all before:duration-300"
+            >
+              GitHub
+            </a>
+          </span>{" "}
           for more details. Have a nice day!
         </p>
-
-        <a href="#projects">
-          <div className="group bg-teal w-fit h-fit rounded-md my-12 cursor-pointer">
-            <div className="transition bg-donker py-5 px-8 border rounded-md font-roboto-mono group-hover:-translate-y-1 group-hover:-translate-x-1">
-              Check out my work!
+        <div className="flex gap-10">
+          <a href="#projects">
+            <div className="my-12 cursor-pointer">
+              <div className="transition bg-donker py-5 px-8 border rounded-md font-roboto-mono hover:shadow-[4px_4px_0_0_#64ffda] hover:-translate-x-[5px] hover:-translate-y-[5px]">
+                Check out my work!
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+          <Link href="/resume" target="_blank" rel="noreferrer">
+            <div className="my-12 cursor-pointer">
+              <div className="transition bg-donker py-5 px-8 border rounded-md font-roboto-mono hover:shadow-[4px_4px_0_0_#64ffda] hover:-translate-x-[5px] hover:-translate-y-[5px]">
+                Resume
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
     </div>
   );

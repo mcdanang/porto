@@ -12,13 +12,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between px-6 md:px-24 ">
       <Navbar />
       <Landing />
-      <Layout no="01." title="About Me">
+      <Layout id="about" no="01." title="About Me">
         <About/>
       </Layout>
-      <Layout no="02." title="Some Things I've Built">
+      <Layout id="projects" no="02." title="Some Things I've Built">
         <Projects/>
       </Layout>
-      <Layout no="03." title="What's Next">
+      <Layout id="contact" no="03." title="What's Next">
         <Contact/>
       </Layout>
       <Footer />

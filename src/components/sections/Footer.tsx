@@ -19,13 +19,13 @@ export default function Footer() {
         </div>
         <div>
           <div className="flex justify-center gap-6 gap-y-8 md:flex-col md:fixed md:bottom-32 md:left-6">
-            <a href="https://codepen.io/mcdanang" target="_blank">
-              <Codepen className="stroke-white hover:stroke-teal w-6 h-6 hover:-translate-y-2 duration-500 transition" />
-            </a>
-            <a href="https://codepen.io/mcdanang" target="_blank">
+            <a href="https://www.linkedin.com/in/mdanangp/" target="_blank">
               <Linkedin className="fill-white hover:fill-teal w-6 h-6 hover:-translate-y-2 duration-500 transition" />
             </a>
             <a href="https://codepen.io/mcdanang" target="_blank">
+              <Codepen className="stroke-white hover:stroke-teal w-6 h-6 hover:-translate-y-2 duration-500 transition" />
+            </a>
+            <a href="https://github.com/mcdanang/" target="_blank">
               <Github className="stroke-white hover:stroke-teal w-6 h-6 hover:-translate-y-2 duration-500 transition" />
             </a>
           </div>
@@ -35,7 +35,9 @@ export default function Footer() {
           <span className="font-roboto-mono text-white">
             Designed & Built by{" "}
           </span>
-          <span className="font-roboto">M Danang Priambodo</span>
+          <a href="#" className="font-roboto">
+            M Danang Priambodo
+          </a>
         </p>
       </div>
     </footer>

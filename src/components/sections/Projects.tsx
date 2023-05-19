@@ -1,11 +1,11 @@
 export default function Projects() {
   return (
-    <div>
+    <section>
       <div>
         <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
           Where does it come from?
         </h1>
-        <p>
+        <p className="text-white">
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC, making
           it over 2000 years old. Richard McClintock, a Latin professor at
@@ -30,7 +30,7 @@ export default function Projects() {
         <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
           Why do we use it?
         </h1>
-        <p>
+        <p className="text-white">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -47,7 +47,7 @@ export default function Projects() {
         <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
           Where can I get some?
         </h1>
-        <p>
+        <p className="text-white">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
           humour, or randomised words which don&apos;t look even slightly
@@ -62,6 +62,6 @@ export default function Projects() {
           non-characteristic words etc.
         </p>
       </div>
-    </div>
+    </section>
   );
 }

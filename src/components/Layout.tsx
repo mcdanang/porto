@@ -2,13 +2,15 @@ export default function Layout({
   children,
   no,
   title,
+  id
 }: {
   children: React.ReactNode;
   no: string;
   title: string;
+  id: string;
 }) {
   return (
-    <div className="py-16">
+    <div id={id} className="py-16">
       <header className="w-full flex items-center">
         <h1 className="font-roboto-mono text-2xl mr-4">{no}</h1>
         <h1 className=" flex-shrink-0 font-roboto text-4xl text-white">{title}</h1>

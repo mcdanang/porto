@@ -65,13 +65,13 @@ export default function Example() {
               </div>
               <div className="hidden sm:block sm:ml-6">
                 <div className="flex space-x-4">
-                  {["About", "Projects", "Contact"].map((section, index) => {
+                  {["about", "projects", "contact"].map((section, index) => {
                     return (
-                      <a key={section} className="group px-4 cursor-pointer">
+                      <a key={section} href={`#${section}`} className="group px-4 cursor-pointer">
                         <text className="font-roboto-mono">
                           {zeroPad(index + 1, 2)}.
                         </text>
-                        <text className="text-white group-hover:text-teal pl-2 font-roboto-mono">
+                        <text className="text-white group-hover:text-teal pl-2 font-roboto-mono capitalize">
                           {section}
                         </text>
                       </a>

@@ -1,10 +1,10 @@
 export default function Contact() {
   return (
-    <div>
+    <section>
       <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
         What is Lorem Ipsum?
       </h1>
-      <p>
+      <p className="text-white">
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry&apos;s standard dummy text
         ever since the 1500s, when an unknown printer took a galley of type and
@@ -15,6 +15,6 @@ export default function Contact() {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-    </div>
+    </section>
   );
 }
