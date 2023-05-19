@@ -5,7 +5,7 @@ export default function Contact() {
         Get In Touch
       </h1>
       <p className="text-gray text-lg text-center">
-        My inbox is always open for you! <br /> Want to send me a message? Don't
+        My inbox is always open for you! <br /> Want to send me a message? Don&apos;t
         hesitate.
       </p>
       <div className="flex justify-center pt-8">
