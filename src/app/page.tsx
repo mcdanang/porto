@@ -18,7 +18,7 @@ export default function Home() {
       <Layout id="projects" no="02." title="Some Things I've Built">
         <Projects/>
       </Layout>
-      <Layout id="contact" no="03." title="What's Next">
+      <Layout id="contact" no="03." title="What's Next?">
         <Contact/>
       </Layout>
       <Footer />
