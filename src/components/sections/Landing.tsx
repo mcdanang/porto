@@ -1,12 +1,12 @@
 export default function Landing() {
   return (
-    <div className="h-[calc(100vh-100px)] flex items-center">
+    <div className="h-[calc(100vh)] flex items-center">
       <div className="">
-        <h3 className="text-xl font-roboto-mono pb-6">Hi, my name is</h3>
-        <h1 className="text-5xl md:text-7xl lg:text-7xl xl:text-8xl font-roboto text-white leading-tight md:leading-tight lg:leading-tight xl:leading-tight">
+        <h3 className="text-xl font-roboto-mono pb-6 pt-28">Hi, my name is</h3>
+        <h1 className="text-4xl md:text-7xl lg:text-7xl xl:text-8xl font-roboto text-white leading-tight md:leading-tight lg:leading-tight xl:leading-tight">
           M Danang Priambodo.
         </h1>
-        <h2 className="text-5xl md:text-7xl lg:text-7xl xl:text-8xl font-roboto text-gray leading-tight md:leading-tight lg:leading-tight xl:leading-tight capitalize">
+        <h2 className="text-4xl md:text-7xl lg:text-7xl xl:text-8xl font-roboto text-gray leading-tight md:leading-tight lg:leading-tight xl:leading-tight capitalize">
           I build stuff for the web.
         </h2>
         <p className="text-lg font-roboto text-gray md:w-2/3 my-8 max-w-2xl">
