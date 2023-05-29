@@ -52,7 +52,7 @@ export default function Example() {
   return (
     <Disclosure
       as="nav"
-      className={`transition duration-300 w-screen md:py-4 px-2 md:px-24 top-0 fixed bg-donker/80 backdrop-blur ${
+      className={`z-10 transition duration-300 w-screen md:py-4 px-2 md:px-24 top-0 fixed bg-donker/80 backdrop-blur ${
         show && "-translate-y-24"
       } ${showShadow && "shadow-lg"}`}
     >
@@ -77,7 +77,7 @@ export default function Example() {
                         <text className="font-roboto-mono">
                           {zeroPad(index + 1, 2)}.
                         </text>
-                        <text className="text-white group-hover:text-teal pl-2 font-roboto-mono capitalize">
+                        <text className="text-white group-hover:text-teal pl-2 font-roboto-mono capitalize ">
                           {section}
                         </text>
                       </a>

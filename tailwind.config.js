@@ -11,6 +11,8 @@ module.exports = {
       'white': '#ccd6f6',
       'gray': '#8892b0',
       'teal': '#64ffda',
+      'black': '#000000',
+      'dark': '#728C9F',
     },
     fontFamily: {
       'roboto': 'Roboto-Medium',
