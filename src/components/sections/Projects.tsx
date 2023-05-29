@@ -1,66 +1,84 @@
+import Image from "next/image";
+
+const technologies = [
+  {
+    name: "TypeScript",
+    logo: "/svgs/technologies/TypeScript.svg",
+  },
+  {
+    name: "TypeScript",
+    logo: "/svgs/technologies/TypeScript.svg",
+  },
+  {
+    name: "TypeScript",
+    logo: "/svgs/technologies/TypeScript.svg",
+  },
+  {
+    name: "TypeScript",
+    logo: "/svgs/technologies/TypeScript.svg",
+  },
+  {
+    name: "TypeScript",
+    logo: "/svgs/technologies/TypeScript.svg",
+  },
+];
+
 export default function Projects() {
   return (
     <section>
-      <div>
-        <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
-          Where does it come from?
-        </h1>
-        <p className="text-white">
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-          1.10.33 of &quot;de Finibus Bonorum et Malorum&quot; (The Extremes of
-          Good and Evil) by Cicero, written in 45 BC. This book is a treatise on
-          the theory of ethics, very popular during the Renaissance. The first
-          line of Lorem Ipsum, &quot;Lorem ipsum dolor sit amet..&quot;, comes
-          from a line in section 1.10.32. <br />
+      <div className="md:flex">
+        <div className="text-gray text-md py-4">
+          <p>
+            Hello! My name is Youssef Ragaey, I&apos;m{" "}
+            {new Date().getFullYear() - new Date("2007-05-01").getFullYear()}{" "}
+            years old and Interested in computer science. I started programming
+            by taking{" "}
+            <a href="https://tinyurl.com/2kdaobma" target="_blank" className="">
+              CS50
+            </a>{" "}
+            course from harvard in 2020 when I decided to learn how to code and
+            make stuff out of the box.
+          </p>
           <br />
-          The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-          below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de
-          Finibus Bonorum et Malorum&quot; by Cicero are also reproduced in
-          their exact original form, accompanied by English versions from the
-          1914 translation by H. Rackham.
-        </p>
-      </div>
-      <div>
-        <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
-          Why do we use it?
-        </h1>
-        <p className="text-white">
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using &apos;Content here, content here&apos;,
-          making it look like readable English. Many desktop publishing packages
-          and web page editors now use Lorem Ipsum as their default model text,
-          and a search for &apos;lorem ipsum&apos; will uncover many web sites
-          still in their infancy. Various versions have evolved over the years,
-          sometimes by accident, sometimes on purpose (injected humour and the
-          like).
-        </p>
-      </div>
-      <div>
-        <h1 className="text-3xl font-bold text-[#8892b0] pt-12 pb-4">
-          Where can I get some?
-        </h1>
-        <p className="text-white">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don&apos;t look even slightly
-          believable. If you are going to use a passage of Lorem Ipsum, you need
-          to be sure there isn&apos;t anything embarrassing hidden in the middle
-          of text. All the Lorem Ipsum generators on the Internet tend to repeat
-          predefined chunks as necessary, making this the first true generator
-          on the Internet. It uses a dictionary of over 200 Latin words,
-          combined with a handful of model sentence structures, to generate
-          Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is
-          therefore always free from repetition, injected humour, or
-          non-characteristic words etc.
-        </p>
+          <p>
+            In 2021, I started to think about the internet and how it works, so
+            I focused on web development (especially front-end) and doing my
+            best here.
+          </p>
+          <br />
+          <p>Here are a few technologies I&apos;ve been working with:</p>
+          <ul className="grid grid-cols-2 sm:max-md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[10px] py-4">
+            {technologies.map((tech) => (
+              <li
+                key={tech.name}
+                className="flex bg-dark/5 py-2 px-3 rounded-lg items-center hover:-translate-y-2 duration-300 transition"
+              >
+                <div className="p-2 bg-[skyblue]/20 rounded-lg">
+                  <Image
+                    alt={tech.name}
+                    src={tech.logo}
+                    width={20}
+                    height={20}
+                  />
+                </div>
+                <div className="pl-2 w-20">
+                  <text className="text-white text-sm">{tech.name}</text>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div className="flex justify-center items-center px-8 group">
+          <div className="relative w-60 h-60 mr-4">
+            <Image
+              src="/logo.webp"
+              fill
+              className="rounded-lg"
+              alt="mcdanang"
+            />
+          </div>
+          <div className="absolute -z-10 mr-4 transition duration-300 translate-x-6 translate-y-6 group-hover:translate-x-3 group-hover:translate-y-3 w-60 h-60 border rounded-lg"></div>
+        </div>
       </div>
     </section>
   );

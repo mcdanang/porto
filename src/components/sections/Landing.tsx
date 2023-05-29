@@ -18,28 +18,28 @@ export default function Landing() {
             <a
               href="https://github.com/mcdanang/"
               target="_blank"
-              className="text-teal before:content-[''] before:w-0 before:h-[1px] before:absolute before:bottom-0 before:left-0 before:bg-teal before:hover:w-full before:transition-all before:duration-300"
+              className="text-teal relative before:z-10 before:content-[''] before:w-0 before:h-[1px] before:absolute before:bottom-0 before:left-0 before:bg-teal before:hover:w-full before:transition-all before:duration-300"
             >
               GitHub
             </a>
           </span>{" "}
           for more details. Have a nice day!
         </p>
-        <div className="flex gap-10">
-          <a href="#projects">
-            <div className="my-12 cursor-pointer">
-              <div className="transition bg-donker py-5 px-8 border rounded-md font-roboto-mono hover:shadow-[4px_4px_0_0_#64ffda] hover:-translate-x-[5px] hover:-translate-y-[5px]">
+        <div className="md:flex gap-10">
+          <div className="my-6 flex justify-center">
+            <a href="#projects" className="cursor-pointer">
+              <div className="transition text-center bg-donker py-2 px-4 md:py-5 md:px-8 border rounded-md font-roboto-mono hover:shadow-[4px_4px_0_0_#64ffda] hover:-translate-x-[5px] hover:-translate-y-[5px]">
                 Check out my work!
               </div>
-            </div>
-          </a>
-          <Link href="/resume" target="_blank" rel="noreferrer">
-            <div className="my-12 cursor-pointer">
-              <div className="transition bg-donker py-5 px-8 border rounded-md font-roboto-mono hover:shadow-[4px_4px_0_0_#64ffda] hover:-translate-x-[5px] hover:-translate-y-[5px]">
+            </a>
+          </div>
+          <div className="my-6 flex justify-center">
+            <Link href="/resume" target="_blank" rel="noreferrer">
+              <div className="transition cursor-pointer text-center bg-donker py-2 px-4 md:py-5 md:px-8 border rounded-md font-roboto-mono hover:shadow-[4px_4px_0_0_#64ffda] hover:-translate-x-[5px] hover:-translate-y-[5px]">
                 Resume
               </div>
-            </div>
-          </Link>
+            </Link>
+          </div>
         </div>
       </div>
     </div>
