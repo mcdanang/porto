@@ -8,10 +8,14 @@ module.exports = {
   theme: {
     colors: {
       'donker': '#0a192f',
+      'white': '#ccd6f6',
+      'gray': '#8892b0',
+      'teal': '#64ffda',
     },
     fontFamily: {
       'roboto': 'Roboto-Medium',
-    }
+      'roboto-mono': 'RobotoMono-Regular',
+    },
   },
   plugins: [],
 }
