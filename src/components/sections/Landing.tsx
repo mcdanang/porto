@@ -13,16 +13,21 @@ export default function Landing() {
 				</h1>
 				<h2 className="text-2xl md:text-3xl lg:text-5xl xl:text-6xl font-roboto text-gray leading-tight md:leading-tight lg:leading-tight xl:leading-tight capitalize">
 					<Typewriter
-						text={["Full Stack Web Developer.", "Back End Developer.", "Engineer."]}
+						text={[
+							"Full Stack Web Developer.",
+							"Back End Developer.",
+							"Front End Developer.",
+							"Engineer.",
+						]}
 						loop
 						delay={1000}
 						speed={50}
 					/>
 				</h2>
 				<p className="text-lg font-roboto text-gray md:w-2/3 my-8 max-w-2xl">
-					I am an engineer and a full-stack web developer. I started programming in 2021 and have
-					been continuously improving my skills and knowledge. I am currently open to new work
-					opportunities. For more details, you can check out my work on{" "}
+					I am an engineering graduate and a full-stack web developer. I started programming in 2021
+					and have been continuously improving my skills and knowledge. I am currently open to new
+					work opportunities. For more details, you can check out my work on{" "}
 					<span className="relative">
 						<a
 							href="https://github.com/mcdanang/"

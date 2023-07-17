@@ -13,6 +13,12 @@ module.exports = {
 			teal: "#64ffda",
 			black: "#000000",
 			dark: "#728C9F",
+			purple: "#AA60DB",
+			red: "#EB5757",
+			blue: "#2D9CDB",
+			black: "#000000",
+			yellow: "#FFE082",
+			orange: "#E08020",
 		},
 		fontFamily: {
 			roboto: "Roboto-Medium",
