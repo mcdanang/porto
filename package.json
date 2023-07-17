@@ -23,6 +23,7 @@
 		"react-dom": "18.2.0",
 		"react-ts-typewriter": "^0.1.8-b",
 		"tailwindcss": "3.3.2",
+		"taos": "^1.0.3",
 		"typescript": "5.0.4"
 	}
 }

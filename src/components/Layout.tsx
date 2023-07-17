@@ -10,7 +10,7 @@ export default function Layout({
 	id: string;
 }) {
 	return (
-		<div id={id} className="py-16 w-screen px-6 sm:px-10 md:px-24">
+		<div id={id} className="py-16 w-screen max-w-7xl px-6 sm:px-10 md:px-24">
 			<header
 				className={id === "contact" ? "flex justify-center text-xl" : "w-full flex items-center"}
 			>
