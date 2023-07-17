@@ -62,7 +62,7 @@ const technologies = [
 export default function About() {
 	return (
 		<section>
-			<div className="mt-8 md:flex">
+			<div className="mt-8 lg:flex">
 				<div className="text-gray text-md py-4 sm:pr-10">
 					<p>
 						Hello! My name is Muhamad Danang Priambodo, A mechanical engineering graduate who has
@@ -88,7 +88,7 @@ export default function About() {
 					<br />
 					<p>Here are a few technologies I&apos;ve been working with:</p>
 					<br />
-					<ul className="grid grid-cols-2 sm:max-md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[10px] py-4">
+					<ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[10px] py-4">
 						{technologies.map(tech => (
 							<li
 								key={tech.name}

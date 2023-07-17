@@ -6,7 +6,7 @@ import Typewriter from "react-ts-typewriter";
 export default function Landing() {
 	return (
 		<div className="h-[calc(100vh)] flex items-center">
-			<div className="">
+			<div className="py-16 w-screen px-6 sm:px-10 md:px-24">
 				<h3 className="text-xl font-roboto-mono pb-6 pt-28">Hi, my name is</h3>
 				<h1 className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-roboto text-white leading-tight md:leading-tight lg:leading-tight xl:leading-tight">
 					M Danang Priambodo.
