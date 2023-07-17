@@ -1,85 +1,112 @@
 import Image from "next/image";
+import Github from "../../../public/svgs/Github";
+import ExternalLink from "../../../public/svgs/ExternalLink";
 
-const technologies = [
-  {
-    name: "TypeScript",
-    logo: "/svgs/technologies/TypeScript.svg",
-  },
-  {
-    name: "TypeScript",
-    logo: "/svgs/technologies/TypeScript.svg",
-  },
-  {
-    name: "TypeScript",
-    logo: "/svgs/technologies/TypeScript.svg",
-  },
-  {
-    name: "TypeScript",
-    logo: "/svgs/technologies/TypeScript.svg",
-  },
-  {
-    name: "TypeScript",
-    logo: "/svgs/technologies/TypeScript.svg",
-  },
+const projects = [
+	{
+		name: "Groseria",
+		desc: "Groseria is a full-featured online grocery web application including authentication, product recommendation, cart, voucher discount, order management, reporting, admin dashboard, etc",
+		// url: "https://jcwdol0901.purwadhikabootcamp.com/",
+		url: "https://github.com/purwadhikafullstack/JCWDOL0901",
+		github: "https://github.com/purwadhikafullstack/JCWDOL0901",
+		techs: ["ReactJs", "Tailwind", "NodeJS", "MySQL"],
+		image: "/images/groseria.png",
+	},
+	{
+		name: "Qurban Kuy!",
+		desc: "Qurban Kuy! is a simple and robust website for a small business that sell livestock (sheep & cow) for Idul Adha Event",
+		url: "https://qurban-kuy.vercel.app/",
+		github: "https://github.com/mcdanang/qurban-kuy",
+		techs: ["NextJS", "Tailwind", "Typescript"],
+		image: "/images/qurban-kuy.png",
+	},
+	{
+		name: "Teman Sejati",
+		desc: "Teman Sejati is a digital business that provides services to create a visually appealing web-based digital invitation for weddings",
+		url: "https://teman-sejati.com/dina-faiz/",
+		github: "",
+		techs: ["Wordpress", "HTML", "CSS", "JavaScript"],
+		image: "/images/teman-sejati.png",
+	},
 ];
 
 export default function Projects() {
-  return (
-    <section>
-      <div className="md:flex">
-        <div className="text-gray text-md py-4">
-          <p>
-            Hello! My name is Youssef Ragaey, I&apos;m{" "}
-            {new Date().getFullYear() - new Date("2007-05-01").getFullYear()}{" "}
-            years old and Interested in computer science. I started programming
-            by taking{" "}
-            <a href="https://tinyurl.com/2kdaobma" target="_blank" className="">
-              CS50
-            </a>{" "}
-            course from harvard in 2020 when I decided to learn how to code and
-            make stuff out of the box.
-          </p>
-          <br />
-          <p>
-            In 2021, I started to think about the internet and how it works, so
-            I focused on web development (especially front-end) and doing my
-            best here.
-          </p>
-          <br />
-          <p>Here are a few technologies I&apos;ve been working with:</p>
-          <ul className="grid grid-cols-2 sm:max-md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-[10px] py-4">
-            {technologies.map((tech) => (
-              <li
-                key={tech.name}
-                className="flex bg-dark/5 py-2 px-3 rounded-lg items-center hover:-translate-y-2 duration-300 transition"
-              >
-                <div className="p-2 bg-[skyblue]/20 rounded-lg">
-                  <Image
-                    alt={tech.name}
-                    src={tech.logo}
-                    width={20}
-                    height={20}
-                  />
-                </div>
-                <div className="pl-2 w-20">
-                  <text className="text-white text-sm">{tech.name}</text>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="flex justify-center items-center px-8 group">
-          <div className="relative w-60 h-60 mr-4">
-            <Image
-              src="/logo.webp"
-              fill
-              className="rounded-lg"
-              alt="mcdanang"
-            />
-          </div>
-          <div className="absolute -z-10 mr-4 transition duration-300 translate-x-6 translate-y-6 group-hover:translate-x-3 group-hover:translate-y-3 w-60 h-60 border rounded-lg"></div>
-        </div>
-      </div>
-    </section>
-  );
+	return (
+		<section>
+			<div className="w-full flex pt-10 h-fit justify-end flex-col gap-16">
+				{projects.map((project, index) => {
+					return (
+						<div className="relative group/project" key={index}>
+							<div
+								className={`w-full lg:w-2/3 min-h-[360px] flex items-center relative ${
+									index % 2 == 0 ? "lg:mr-auto" : "lg:ml-auto"
+								}`}
+							>
+								<Image src={project.image} fill alt="tes" style={{ objectFit: "cover" }} />
+							</div>
+							<div
+								className={`bg-donker/90 lg:bg-[#398470]/50 lg:group-hover/project:bg-donker/0 transition duration-300 w-full lg:w-2/3 h-full absolute top-0 ${
+									index % 2 == 0 ? "lg:left-0" : "lg:right-0"
+								}`}
+							></div>
+							<div
+								className={`absolute top-0 px-8 pt-8 w-full ${
+									index % 2 == 0 ? "lg:right-0" : "lg:left-0"
+								}`}
+							>
+								<h3
+									className={`text-sm font-roboto-mono w-fit ${
+										index % 2 == 0 ? "ml-auto" : "mr-auto"
+									}`}
+								>
+									Featured Project
+								</h3>
+								<a className=" cursor-pointer group" href={project.url} target="_blank">
+									<h2
+										className={`text-3xl font-bold text-white font-roboto-mono mb-6 w-fit group-hover:text-teal transition duration-300 ${
+											index % 2 == 0 ? "ml-auto" : "mr-auto"
+										}`}
+									>
+										{project.name}
+									</h2>
+								</a>
+								<div
+									className={`lg:bg-[#112240] lg:rounded lg:px-6 md:py-6 lg:w-[480px] ${
+										index % 2 == 0 ? "ml-auto text-right" : "mr-auto text-left"
+									}`}
+								>
+									<h3 className="text-sm text-gray font-roboto font-light">{project.desc}</h3>
+								</div>
+								<div className={`flex w-fit gap-4 py-6 ${index % 2 == 0 ? "ml-auto" : "mr-auto"}`}>
+									{project?.techs.map((tech, index) => {
+										return (
+											<p key={index} className="text-sm text-white font-roboto font-light">
+												{tech}
+											</p>
+										);
+									})}
+								</div>
+								<div className={`flex w-fit gap-4 py-6 ${index % 2 == 0 ? "ml-auto" : "mr-auto"}`}>
+									{project.github && (
+										<a href={project.github} target="_blank">
+											<div className="h-6 group">
+												<Github className="stroke-white group-hover:stroke-teal w-5 h-5 group-hover:-translate-y-2 duration-300 transition" />
+											</div>
+										</a>
+									)}
+									{project.url && (
+										<a href={project.url} target="_blank">
+											<div className="h-6 group">
+												<ExternalLink className="stroke-white group-hover:stroke-teal w-5 h-5 group-hover:-translate-y-2 duration-300 transition" />
+											</div>
+										</a>
+									)}
+								</div>
+							</div>
+						</div>
+					);
+				})}
+			</div>
+		</section>
+	);
 }
