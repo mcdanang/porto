@@ -6,8 +6,7 @@ const projects = [
 	{
 		name: "Groseria",
 		desc: "Groseria is a full-featured online grocery web application including authentication, product recommendation, cart, voucher discount, order management, reporting, admin dashboard, etc",
-		// url: "https://jcwdol0901.purwadhikabootcamp.com/",
-		url: "https://github.com/purwadhikafullstack/JCWDOL0901",
+		url: "https://jcwdol0901.purwadhikabootcamp.com/",
 		github: "https://github.com/purwadhikafullstack/JCWDOL0901",
 		techs: ["ReactJs", "Tailwind", "NodeJS", "MySQL"],
 		image: "/images/groseria.png",
