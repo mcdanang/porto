@@ -4,6 +4,14 @@ import ExternalLink from "../../../public/svgs/ExternalLink";
 
 const projects = [
 	{
+		name: "McInvest",
+		desc: "McInvest is a web application designed to provide users with a platform to invest in various projects. Users can view a list of available investment projects, monitor their investments through a dashboard, and access reports on their investment history.",
+		url: "",
+		github: "https://github.com/mcdanang/mcinvest",
+		techs: ["NextJS", "Tailwind", "JavaScript", "PostgreSQL"],
+		image: "/images/mcinvest.png",
+	},
+	{
 		name: "Groseria",
 		desc: "Groseria is a full-featured online grocery web application including authentication, product recommendation, cart, voucher discount, order management, reporting, admin dashboard, etc",
 		url: "https://jcwdol0901.purwadhikabootcamp.com/",
