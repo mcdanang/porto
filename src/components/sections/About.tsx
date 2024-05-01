@@ -57,6 +57,22 @@ const technologies = [
 		name: "Tailwind",
 		logo: "/svgs/technologies/Tailwind.svg",
 	},
+	{
+		name: "Laravel",
+		logo: "/svgs/technologies/Laravel.svg",
+	},
+	{
+		name: "Go",
+		logo: "/svgs/technologies/Golang.svg",
+	},
+	{
+		name: "Docker",
+		logo: "/svgs/technologies/Docker.svg",
+	},
+	{
+		name: "Python",
+		logo: "/svgs/technologies/Python.svg",
+	},
 ];
 
 export default function About() {

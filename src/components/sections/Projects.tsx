@@ -6,10 +6,19 @@ const projects = [
 	{
 		name: "McInvest",
 		desc: "McInvest is a web application designed to provide users with a platform to invest in various projects. Users can view a list of available investment projects, monitor their investments through a dashboard, and access reports on their investment history.",
-		url: "https://mcinvest.vercel.app/",
+		// url: "https://mcinvest.vercel.app/",
+		url: "https://mcinvest-f2sks9afe-mcdanangs-projects.vercel.app/",
 		github: "",
 		techs: ["NextJS", "Tailwind", "JavaScript", "PostgreSQL"],
-		image: "/images/mcinvest.png",
+		image: "/images/mcinvest2.png",
+	},
+	{
+		name: "Aresta",
+		desc: "Aresta is a web company profile for PT. Aresta Karya Mandiri, an Engineering and Management Systems consulting services company, especially in the field of Electricity and other consulting services, including Environmental Engineering and AMDAL.",
+		url: "https://www.arestakaryamandiri.com/",
+		github: "",
+		techs: ["NextJS", "Tailwind", "Typescript"],
+		image: "/images/aresta.png",
 	},
 	{
 		name: "Groseria",
@@ -30,7 +39,8 @@ const projects = [
 	{
 		name: "Teman Sejati",
 		desc: "Teman Sejati is a digital business that provides services to create a visually appealing web-based digital invitation for weddings",
-		url: "https://teman-sejati.com/dina-faiz/",
+		// url: "https://teman-sejati.com/dina-faiz/",
+		url: "",
 		github: "",
 		techs: ["Wordpress", "HTML", "CSS", "JavaScript"],
 		image: "/images/teman-sejati.png",
