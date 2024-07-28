@@ -81,25 +81,32 @@ export default function About() {
 			<div className="mt-8 lg:flex">
 				<div className="text-gray text-md py-4 sm:pr-10">
 					<p>
-						Hello! My name is Muhamad Danang Priambodo, A mechanical engineering graduate who has
-						decided to embark on a new career path in web development. I&apos;ve always been
-						fascinated by technology, so when I started learning more about web development, I was
-						hooked right away.
+						Hello! My name is Muhamad Danang Priambodo. I am a mechanical engineering graduate who
+						transitioned into web development, driven by a passion for technology and innovation.
+					</p>
+					<p>
+						<br />
+						My web development journey began in 2021 with a NodeJS Backend Development course.
+						Following this, I pursued self-study before enrolling in a Full Stack Web Development
+						program at Purwadhika Digital Technology School. This program provided me with practical
+						experience across various front-end and back-end technologies, focusing on real-world
+						projects and industry scenarios.
 					</p>
 					<br />
 					<p>
-						I began my web development journey in 2021 by enrolling in a NodeJS Backend Development
-						class. After that, I learned on my own before finally enrolling in a Full Stack Web
-						Development program at Purwadhika Digital Technology School, where I gained practical
-						experience with a variety of front-end and back-end technologies that emphasize a
-						practical approach and real-world projects simulating industry scenarios.
+						Currently, I am working as a Back End Developer at PT Surya Fajar Urun Dana, where I
+						specialize in creating and maintaining scalable backend systems, deploying web
+						applications, and ensuring security best practices. In addition to my professional role,
+						I am actively developing my own product &quot;McInvest&quot;, a crowdfunding platform,
+						and soon, &quot;Wrotels&quot;, an AI-powered IELTS Writing Test Simulation platform,
+						where I handle both front-end and back-end development.
 					</p>
 					<br />
 					<p>
-						Additionally, I gained hands-on experience in building robust and scalable web APIs,
-						working with databases, handling authentication and security, implementing efficient
-						server-side architecture, creating responsive and visually appealing user interfaces,
-						integrating APIs, handling user interactions, and optimizing web performance.
+						My expertise includes building robust and scalable web APIs, working with databases,
+						handling authentication and security, implementing efficient server-side architecture,
+						creating responsive and visually appealing user interfaces, integrating APIs, handling
+						user interactions, and optimizing web performance.
 					</p>
 					<br />
 					<p>Here are a few technologies I&apos;ve been working with:</p>
