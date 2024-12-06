@@ -4,6 +4,22 @@ import ExternalLink from "../../../public/svgs/ExternalLink";
 
 const projects = [
 	{
+		name: "Wrotels",
+		desc: "Wrotels is an innovative SaaS platform that leverages AI to simulate IELTS Writing tests. It provides users with instant scoring and feedback to help improve their writing skills.",
+		// url: "https://www.teman-sejati.com/",
+		github: "",
+		techs: ["NextJS", "Tailwind", "Typescript", "PostgreSQL"],
+		image: "/images/wrotels.png",
+	},
+	{
+		name: "Teman Sejati",
+		desc: "Teman Sejati is an online platform that allows you to create personalized digital wedding invitations where you can customize your invitation, add event details, and share it instantly with your guests.",
+		url: "https://www.teman-sejati.com/",
+		github: "",
+		techs: ["NextJS", "Tailwind", "Typescript", "PostgreSQL"],
+		image: "/images/teman-sejati.webp",
+	},
+	{
 		name: "McInvest",
 		desc: "McInvest is a web application designed to provide users with a platform to invest in various projects. Users can view a list of available investment projects, monitor their investments through a dashboard, and access reports on their investment history.",
 		// url: "https://mcinvest.vercel.app/",
@@ -21,14 +37,6 @@ const projects = [
 		image: "/images/aresta.png",
 	},
 	{
-		name: "Groseria",
-		desc: "Groseria is a full-featured online grocery web application including authentication, product recommendation, cart, voucher discount, order management, reporting, admin dashboard, etc",
-		url: "https://groseria-client.vercel.app/",
-		github: "https://github.com/purwadhikafullstack/JCWDOL0901",
-		techs: ["ReactJs", "Tailwind", "NodeJS", "MySQL"],
-		image: "/images/groseria.png",
-	},
-	{
 		name: "Qurban Kuy!",
 		desc: "Qurban Kuy! is a simple and robust website for a small business that sell livestock (sheep & cow) for Idul Adha Event",
 		url: "https://qurban-kuy.vercel.app/",
@@ -37,13 +45,12 @@ const projects = [
 		image: "/images/qurban-kuy.png",
 	},
 	{
-		name: "Teman Sejati",
-		desc: "Teman Sejati is a digital business that provides services to create a visually appealing web-based digital invitation for weddings",
-		// url: "https://teman-sejati.com/dina-faiz/",
-		url: "",
-		github: "",
-		techs: ["Wordpress", "HTML", "CSS", "JavaScript"],
-		image: "/images/teman-sejati.png",
+		name: "Groseria",
+		desc: "Groseria is a full-featured online grocery web application including authentication, product recommendation, cart, voucher discount, order management, reporting, admin dashboard, etc",
+		url: "https://groseria-client.vercel.app/",
+		github: "https://github.com/purwadhikafullstack/JCWDOL0901",
+		techs: ["ReactJs", "Tailwind", "NodeJS", "MySQL"],
+		image: "/images/groseria.png",
 	},
 ];
 
