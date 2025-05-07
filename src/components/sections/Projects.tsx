@@ -6,7 +6,7 @@ const projects = [
 	{
 		name: "Wrotels",
 		desc: "Wrotels is an innovative SaaS platform that leverages AI to simulate IELTS Writing tests. It provides users with instant scoring and feedback to help improve their writing skills.",
-		// url: "https://www.teman-sejati.com/",
+		url: "https://www.wrotels.com/",
 		github: "",
 		techs: ["NextJS", "Tailwind", "Typescript", "PostgreSQL"],
 		image: "/images/wrotels.png",

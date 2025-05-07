@@ -73,6 +73,10 @@ const technologies = [
 		name: "Python",
 		logo: "/svgs/technologies/Python.svg",
 	},
+	{
+		name: "NestJS",
+		logo: "/svgs/technologies/NestJS.svg",
+	},
 ];
 
 export default function About() {
@@ -81,32 +85,17 @@ export default function About() {
 			<div className="mt-8 lg:flex">
 				<div className="text-gray text-md py-4 sm:pr-10">
 					<p>
-						Hello! My name is Muhamad Danang Priambodo. I am a mechanical engineering graduate who
-						transitioned into web development, driven by a passion for technology and innovation.
+						Hello! My name is Muhamad Danang Priambodo, an engineering graduate with over three
+						years of experience in designing, developing, and integrating both front-end and
+						back-end applications. Proficient in web technologies and frameworks, including HTML,
+						CSS, JavaScript, TypeScript, PHP, and Go, as well as skilled in utilizing Next.js,
+						Nest.js, Laravel, and databases such as PostgreSQL and MongoDB.
 					</p>
 					<p>
-						<br />
-						My web development journey began in 2021 with a NodeJS Backend Development course.
-						Following this, I pursued self-study before enrolling in a Full Stack Web Development
-						program at Purwadhika Digital Technology School. This program provided me with practical
-						experience across various front-end and back-end technologies, focusing on real-world
-						projects and industry scenarios.
-					</p>
-					<br />
-					<p>
-						Currently, I am working as a Back End Developer at PT Surya Fajar Urun Dana, where I
-						specialize in creating and maintaining scalable backend systems, deploying web
-						applications, and ensuring security best practices. In addition to my professional role,
-						I am actively developing my own product &quot;McInvest&quot;, a crowdfunding platform,
-						and soon, &quot;Wrotels&quot;, an AI-powered IELTS Writing Test Simulation platform,
-						where I handle both front-end and back-end development.
-					</p>
-					<br />
-					<p>
-						My expertise includes building robust and scalable web APIs, working with databases,
-						handling authentication and security, implementing efficient server-side architecture,
-						creating responsive and visually appealing user interfaces, integrating APIs, handling
-						user interactions, and optimizing web performance.
+						<br />I have successfully integrated securities crowdfunding applications with e-KYC,
+						digital signature providers, and bank APIs for payment, thereby enhancing user
+						workflows. I ensured compliance with Financial Services Authority regulations, which
+						helped the company secure its business permit.
 					</p>
 					<br />
 					<p>Here are a few technologies I&apos;ve been working with:</p>
