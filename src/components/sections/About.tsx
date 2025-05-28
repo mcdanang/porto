@@ -77,6 +77,14 @@ const technologies = [
 		name: "NestJS",
 		logo: "/svgs/technologies/NestJS.svg",
 	},
+	{
+		name: "Java",
+		logo: "/svgs/technologies/java.svg",
+	},
+	{
+		name: "Spring Boot",
+		logo: "/svgs/technologies/spring.svg",
+	},
 ];
 
 export default function About() {
@@ -88,8 +96,8 @@ export default function About() {
 						Hello! My name is Muhamad Danang Priambodo, an engineering graduate with over three
 						years of experience in designing, developing, and integrating both front-end and
 						back-end applications. Proficient in web technologies and frameworks, including HTML,
-						CSS, JavaScript, TypeScript, PHP, and Go, as well as skilled in utilizing Next.js,
-						Nest.js, Laravel, and databases such as PostgreSQL and MongoDB.
+						CSS, JavaScript, TypeScript, PHP, Java, and Go, as well as skilled in utilizing Next.js,
+						Nest.js, Laravel, Spring Boot, and databases such as PostgreSQL and MongoDB.
 					</p>
 					<p>
 						<br />I have successfully integrated securities crowdfunding applications with e-KYC,
