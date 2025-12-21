@@ -17,7 +17,7 @@ export default function Landing() {
 							"Full Stack Web Developer.",
 							"Back End Developer.",
 							"Front End Developer.",
-							"Engineer.",
+							"Software Engineer.",
 						]}
 						loop
 						delay={1000}
@@ -25,9 +25,11 @@ export default function Landing() {
 					/>
 				</h2>
 				<p className="text-lg font-roboto text-gray lg:w-2/3 my-8 max-w-2xl">
-					I am an engineering graduate and a full-stack web developer. I started programming in 2021
-					and have been continuously improving my skills and knowledge. I am currently open to new
-					work opportunities. For more details, you can check out my work on{" "}
+					I am a Software Engineer with over 4+ years of experience in designing, developing, and
+					integrating scalable front-end and back-end systems, ranging from SaaS products to
+					enterprise-grade, data-intensive platforms. Currently working as a Software Engineer at
+					Sprout Digital Labs and building Wrotels, an AI-powered SaaS platform. For more details,
+					you can check out my work on{" "}
 					<span className="relative">
 						<a
 							href="https://github.com/mcdanang/"

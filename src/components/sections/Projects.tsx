@@ -9,15 +9,7 @@ const projects = [
 		url: "https://www.wrotels.com/",
 		github: "",
 		techs: ["NextJS", "Tailwind", "Typescript", "PostgreSQL"],
-		image: "/images/wrotels.png",
-	},
-	{
-		name: "Teman Sejati",
-		desc: "Teman Sejati is an online platform that allows you to create personalized digital wedding invitations where you can customize your invitation, add event details, and share it instantly with your guests.",
-		url: "https://www.teman-sejati.com/",
-		github: "",
-		techs: ["NextJS", "Tailwind", "Typescript", "PostgreSQL"],
-		image: "/images/teman-sejati.webp",
+		image: "/images/wrotels2.png",
 	},
 	{
 		name: "McInvest",
@@ -25,7 +17,15 @@ const projects = [
 		url: "https://mcinvest.app/",
 		github: "",
 		techs: ["NextJS", "Tailwind", "JavaScript", "PostgreSQL"],
-		image: "/images/mcinvest2.png",
+		image: "/images/mcinvest3.png",
+	},
+	{
+		name: "Teman Sejati",
+		desc: "Teman Sejati is an online platform that allows you to create personalized digital wedding invitations where you can customize your invitation, add event details, and share it instantly with your guests.",
+		url: "https://teman-sejati.com/w/danang-khalisa?to=Danar",
+		github: "",
+		techs: ["NextJS", "Tailwind", "Typescript", "PostgreSQL"],
+		image: "/images/teman-sejati2.png",
 	},
 	{
 		name: "Aresta",

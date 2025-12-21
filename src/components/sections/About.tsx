@@ -85,6 +85,14 @@ const technologies = [
 		name: "Spring Boot",
 		logo: "/svgs/technologies/spring.svg",
 	},
+	{
+		name: "Kafka",
+		logo: "/svgs/technologies/kafka.svg",
+	},
+	{
+		name: "Jenkins",
+		logo: "/svgs/technologies/jenkins.svg",
+	},
 ];
 
 export default function About() {
@@ -93,17 +101,20 @@ export default function About() {
 			<div className="mt-8 lg:flex">
 				<div className="text-gray text-md py-4 sm:pr-10">
 					<p>
-						Hello! My name is Muhamad Danang Priambodo, an engineering graduate with over three
-						years of experience in designing, developing, and integrating both front-end and
-						back-end applications. Proficient in web technologies and frameworks, including HTML,
-						CSS, JavaScript, TypeScript, PHP, Java, and Go, as well as skilled in utilizing Next.js,
-						Nest.js, Laravel, Spring Boot, and databases such as PostgreSQL and MongoDB.
+						Hello! My name is Muhamad Danang Priambodo, a Software Engineer with over 4+ years of
+						experience in designing, developing, and integrating scalable front-end and back-end
+						systems, ranging from SaaS products to enterprise-grade, data-intensive platforms in
+						highly-regulated environments. Experienced in working remotely with international,
+						cross-functional teams, collaborating across time zones to deliver reliable and
+						high-quality solutions.
 					</p>
 					<p>
-						<br />I have successfully integrated securities crowdfunding applications with e-KYC,
-						digital signature providers, and bank APIs for payment, thereby enhancing user
-						workflows. I ensured compliance with Financial Services Authority regulations, which
-						helped the company secure its business permit.
+						<br />
+						Proficient in JavaScript, TypeScript, PHP, Go, and Java, and experienced using Next.js,
+						Nest.js, and Laravel, as well as PostgreSQL and MongoDB. I have contributed to regulated
+						financial platforms involving e-KYC, digital signature, and banking integrations,
+						ensuring compliance and production readiness. Currently building Wrotele, an AI-powered
+						SaaS platform.
 					</p>
 					<br />
 					<p>Here are a few technologies I&apos;ve been working with:</p>
