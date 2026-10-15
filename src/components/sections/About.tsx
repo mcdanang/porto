@@ -101,7 +101,7 @@ export default function About() {
 			<div className="mt-8 lg:flex">
 				<div className="text-gray text-md py-4 sm:pr-10">
 					<p>
-						Hello! My name is Muhamad Danang Priambodo, a Software Engineer with over 4+ years of
+						Hello! My name is Muhamad Danang Priambodo, a Software Engineer with over 5+ years of
 						experience in designing, developing, and integrating scalable front-end and back-end
 						systems, ranging from SaaS products to enterprise-grade, data-intensive platforms in
 						highly-regulated environments. Experienced in working remotely with international,
@@ -113,8 +113,7 @@ export default function About() {
 						Proficient in JavaScript, TypeScript, PHP, Go, and Java, and experienced using Next.js,
 						Nest.js, and Laravel, as well as PostgreSQL and MongoDB. I have contributed to regulated
 						financial platforms involving e-KYC, digital signature, and banking integrations,
-						ensuring compliance and production readiness. Currently building Wrotele, an AI-powered
-						SaaS platform.
+						ensuring compliance and production readiness.
 					</p>
 					<br />
 					<p>Here are a few technologies I&apos;ve been working with:</p>
