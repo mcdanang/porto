@@ -25,10 +25,10 @@ export default function Landing() {
 					/>
 				</h2>
 				<p className="text-lg font-roboto text-gray lg:w-2/3 my-8 max-w-2xl">
-					I am a Software Engineer with over 4+ years of experience in designing, developing, and
+					I am a Software Engineer with over 5+ years of experience in designing, developing, and
 					integrating scalable front-end and back-end systems, ranging from SaaS products to
-					enterprise-grade, data-intensive platforms. Currently working as a Software Engineer at
-					Sprout Digital Labs and building Wrotels, an AI-powered SaaS platform. For more details,
+					enterprise-grade, data-intensive platforms. Currently working as a Full-Stack Engineer at
+					Rimkirim and building Wrotels, an AI-powered SaaS platform. For more details,
 					you can check out my work on{" "}
 					<span className="relative">
 						<a
